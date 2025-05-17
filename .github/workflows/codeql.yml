@@ -85,7 +85,7 @@ jobs:
     - if: matrix.build-mode == 'manual'
       shell: bash
       run: |
-        ./mvn clean install -DskipTests
+        ./mvnw clean install -DskipTests
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
