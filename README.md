@@ -27,31 +27,48 @@ This repository contains the core API logic for the Calingo system. It manages:
 - Session expiration with JWT
 - Input validation and basic audit logging
 
-## 🚀 Running Locally
+## 🚀 How to Run (Docker)
 
 ```bash
 # Clone the repository
 git clone https://github.com/CalingoTeam/Back-End.git
 cd Back-End
 
-# Build and run using Docker
+# Build and run the application
 docker-compose up --build
 ````
 
-Access the API at `http://localhost:8080`.
+The API will be available at:
+📍 `http://localhost:8080`
 
-## 📂 Project Structure
+## 🗂️ Project Structure
 
 ```
-src/
-├── controller/
-├── service/
-├── repository/
-├── model/
-└── security/
-```
 
-## ✅ Testing
+Projeto\_Calingo/
+├── .github/                  # GitHub Actions and workflow files
+├── .mvn/                     # Maven wrapper support
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/Projeto\_Calingo/
+│   │   │   ├── controller/          # REST controllers
+│   │   │   ├── entities/            # JPA entities
+│   │   │   ├── infra/security/      # Security configuration (JWT, RBAC/PBAC)
+│   │   │   ├── repositories/        # Spring Data repositories
+│   │   │   ├── services/            # Business logic
+│   │   │   ├── user/                # User models and logic
+│   │   │   └── ProjetoCalingoApplication.java # Main application entry point
+│   │   └── resources/              # application.properties and static resources
+│   └── test/java/com/example/Projeto\_Calingo/ # Unit and integration tests
+├── .gitattributes
+├── .gitignore
+├── mvnw / mvnw\.cmd               # Maven wrapper scripts
+├── pom.xml                       # Maven project configuration
+└── README.md
+
+````
+
+## 🧪 Running Tests
 
 * JUnit & Mockito
 * To run tests:
@@ -62,10 +79,9 @@ src/
 
 ## 📋 API Documentation
 
-* Swagger (available at `/swagger-ui.html` when running)
-
----
+* Swagger available at `/swagger-ui.html` (when the app is running)
 
 ## 🤝 Contributors
 
 Maintained by [CalingoTeam](https://github.com/CalingoTeam).
+
