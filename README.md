@@ -1,6 +1,21 @@
-# Calingo - Back-End
+<h1 align="center">Calingo - Back-End</h1>
 
-This is the back-end service of the **Calingo** project — a platform that translates regional Brazilian expressions into standard Portuguese, providing context, explanations, and cultural background.
+<p align="center">
+  <img alt="Status" src="https://img.shields.io/badge/status-in%20development-yellow" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white" />
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white" />
+  <img alt="JUnit" src="https://img.shields.io/badge/JUnit-25A162?logo=junit5&logoColor=white" />
+  <img alt="Maven" src="https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white" />
+  <img alt="Tests" src="https://img.shields.io/badge/tests-passing-brightgreen" />
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/CalingoTeam/Back-End" />
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CalingoTeam/Back-End" />
+  <img alt="CodeQL" src="https://github.com/CalingoTeam/Back-End/actions/workflows/codeql.yml/badge.svg" />
+  <img alt="Dependabot enabled" src="https://img.shields.io/badge/Dependabot-enabled-brightgreen?logo=dependabot" />
+</p>
+
+<p align="center">
+  This is the back-end service of the <strong>Calingo</strong> project — a platform that translates regional Brazilian expressions into standard Portuguese, providing context, explanations, and cultural background.
+</p>
 
 ## 🌐 Repository Overview
 
